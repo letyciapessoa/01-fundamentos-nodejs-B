@@ -1,0 +1,25 @@
+# Home
+GET http://localhost:3000/
+
+###
+# LISTA DE USUÁRIOS
+
+GET http://localhost:3000/users
+
+###
+# CADASTRO DE USUÁRIO
+
+POST http://localhost:3000/users
+
+
+###
+
+PUT http://localhost:3000/users/45
+
+###
+# EXCLUSÃO DE USUÁRIO
+DELETE http://localhost:3000/users/45
+
+###
+# pedidos
+GET http://localhost:3000/users/45/pedidos/3345KB
